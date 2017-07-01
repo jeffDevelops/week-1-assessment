@@ -13,7 +13,7 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 220px;
+		height: 450px;
 		background: white,
 		-webkit-linear-gradient(#637E9E, #426082);
 		background: -o-linear-gradient(#637E9E, #426082);
@@ -22,7 +22,7 @@
 
 	.gray {
 		position: absolute;
-		top: 220px;
+		top: 450px;
 		z-index: -1;
 		background: #F6F6F8;
 		width: 100%;
@@ -32,8 +32,8 @@
 	.phones_div {
 		display: block;
 		height: 100%;
-		width: 80%;
-		margin: 65px 2.5% auto 10%;
+		width: 70%;
+		margin: 250px auto 0 auto;
 	}
 
 	.phones {
@@ -43,27 +43,27 @@
 	}
 
 	.content_div {
-		float: right;
-		width: 44%;
+		width: 90%;
 		height: 525px;
 		margin: 80px 10% auto 2.5%;
 	}
 
 	.logo_banner {
-		width: 98%;
-		margin: 0 auto;
+		width: 90%;
+		margin: 300px auto;
 	}
 
 	.logo_banner img {
-		width: 55%;
+		position: absolute;
+		top: 65px;
+		left: 15%;
+		width: 70%;
 	}
 
 	.logo_banner button {
-		position: relative;
-		float: right;
-		width: 24%;
-		max-width: 100px;
-		min-width: 85px;
+		position: absolute;
+		width: 90%;
+		top: 150px;
 		margin: 10px 0px 10px 0;
 		padding: 10px 5px 10px 30px;
 		border: 1px solid #3f5f7f;
@@ -76,6 +76,13 @@
 		font-weight: 500;
 		text-shadow: 0 1px 1px #3B5A7D;
 		box-shadow: 0 0 4px #3f5f7f;
+	}
+
+	.logo_banner button:hover {
+		box-shadow: none;
+		background: -webkit-linear-gradient(#87a1bD, #517295);
+		background: -o-linear-gradient(#87a1bD, #517295);
+		background: linear-gradient(#87a1bD, #517295D);
 	}
 
 	.logo_banner button:active {
@@ -189,9 +196,6 @@
 
 
 
-
-
-
 @media (min-width: 768px) and (max-width: 841px)	{
 	body {
 		padding: 1px;
@@ -282,6 +286,13 @@
 		box-shadow: 0 0 4px #3f5f7f;
 	}
 
+	.logo_banner button:hover {
+		box-shadow: none;
+		background: -webkit-linear-gradient(#87a1bD, #517295);
+		background: -o-linear-gradient(#87a1bD, #517295);
+		background: linear-gradient(#87a1bD, #517295D);
+	}
+
 	.logo_banner button:active {
 		outline: none;
 		box-shadow: inset 0 0 3px #2f4f6f;
@@ -311,8 +322,8 @@
 	}
 
 	.text_container {
-		width: 80%;
-		min-width: 297px;
+		width: 70%;
+		min-width: 280px;
 		margin: 0 auto;
 	}
 
@@ -321,7 +332,7 @@
 		margin: 0 auto; /************/
 		padding: 35px 0 0 0;
 		font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
-		font-size: 1.6em;
+		font-size: 1.4em;
 		font-weight: 500;
 		line-height: 1.3em;
 		color: #334f73;
@@ -483,6 +494,13 @@
 		box-shadow: 0 0 4px #3f5f7f;
 	}
 
+	.logo_banner button:hover {
+		box-shadow: none;
+		background: -webkit-linear-gradient(#87a1bD, #517295);
+		background: -o-linear-gradient(#87a1bD, #517295);
+		background: linear-gradient(#87a1bD, #517295D);
+	}
+
 	.logo_banner button:active {
 		outline: none;
 		box-shadow: inset 0 0 3px #2f4f6f;
@@ -521,7 +539,7 @@
 		margin: 0 auto; /************/
 		padding: 35px 0 0 0;
 		font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
-		font-size: 1.6em;
+		font-size: 1.4em;
 		font-weight: 500;
 		line-height: 1.3em;
 		color: #334f73;
@@ -677,6 +695,13 @@
 		font-weight: 500;
 		text-shadow: 0 1px 1px #3B5A7D;
 		box-shadow: 0 0 4px #3f5f7f;
+	}
+
+	.logo_banner button:hover {
+		box-shadow: none;
+		background: -webkit-linear-gradient(#87a1bD, #517295);
+		background: -o-linear-gradient(#87a1bD, #517295);
+		background: linear-gradient(#87a1bD, #517295D);
 	}
 
 	.logo_banner button:active {
