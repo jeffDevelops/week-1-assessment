@@ -335,7 +335,7 @@
 	}
 
 	.badge.smaller {
-		padding-top: 10px;
+		padding: 10px 0 0 0;
 		width: 52%;
 	}
 
@@ -343,7 +343,6 @@
 		clear: both;
 		width: 80%;
 		margin: 0 auto;
-		padding: 100px 0 0 0;
 	}
 
 	nav ul {
