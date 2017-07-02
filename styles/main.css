@@ -1,3 +1,5 @@
+
+/* MOBILE */
 @media (max-width: 767px) {
 	body {
 		padding: 1px;
@@ -6,6 +8,8 @@
 		font-family: 'Roboto', 'Arial', sans-serif; 
 		font-size: 16px;
 	}
+
+	/* BACKGROUND */
 
 	.blue_gradient {
 		position: absolute;
@@ -208,6 +212,7 @@
 		border-bottom: none;
 	}
 }
+/* TABLET */
 @media (min-width: 768px) and (max-width: 841px)	{
 	body {
 		padding: 1px;
@@ -216,6 +221,8 @@
 		font-family: 'Roboto', 'Arial', sans-serif; 
 		font-size: 16px;
 	}
+
+		/* BACKGROUND */
 
 	.blue_gradient {
 		position: absolute;
@@ -409,6 +416,7 @@
 		color: #5B799A;
 	}
 }
+/* SMALL DESKTOP/LARGE TABLET */
 @media (min-width: 842px) and (max-width: 951px)	{
 	body {
 		padding: 1px;
@@ -417,6 +425,8 @@
 		font-family: 'Roboto', 'Arial', sans-serif; 
 		font-size: 16px;
 	}
+
+		/* BACKGROUND */
 
 	.blue_gradient {
 		position: absolute;
@@ -609,6 +619,7 @@
 		color: #5B799A;
 	}
 }
+/* LARGE DESKTOP */
 @media (min-width: 952px)	{
 	body {
 		padding: 1px;
@@ -623,6 +634,8 @@
 		margin: 0 auto;
 	}
 
+	/* BACKGROUND */
+	
 	.blue_gradient {
 		position: absolute;
 		z-index: -1;
@@ -794,7 +807,7 @@
 
 
 
-
+ 
 
 
 
