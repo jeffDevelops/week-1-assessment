@@ -208,13 +208,6 @@
 		border-bottom: none;
 	}
 }
-
-
-
-
-
-
-
 @media (min-width: 768px) and (max-width: 841px)	{
 	body {
 		padding: 1px;
@@ -416,13 +409,6 @@
 		color: #5B799A;
 	}
 }
-
-
-
-
-
-
-
 @media (min-width: 842px) and (max-width: 951px)	{
 	body {
 		padding: 1px;
@@ -623,14 +609,6 @@
 		color: #5B799A;
 	}
 }
-
-
-
-
-
-
-
-
 @media (min-width: 952px)	{
 	body {
 		padding: 1px;
